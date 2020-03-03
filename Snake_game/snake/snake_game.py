@@ -26,7 +26,7 @@ wn.tracer(0) # verhindert Bildupdates
 # Snake "Kopf"
 head = turtle.Turtle()
 head.speed(0) # 0 = schnellstmögliche Animationsgeschwindigkeit
-head.shape("square") # Form
+head.shape("square") # Form, auch möglich sind: classic, arrow, turtle, circle oder triangle
 head.color("green") # Farbe
 head.penup() # turtle import "hebt den Stift an"
 head.goto(0,0) # in der Mitte beginnen
